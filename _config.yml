@@ -19,18 +19,18 @@ github_username:  jekyll
 
 include:
   - "_pages"
-exclude:
-  - "/assets/"
-  - "/bower_components/"
-  - "bower.json"
-  - "gulpfile.js"
-  - "node_modules"
-  - "npm-debug.log"
-  - "package.json"
-  - "README.md"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "gulpconfig.yml"
+# exclude:
+#   - "/assets/"
+#   - "/bower_components/"
+#   - "bower.json"
+#   - "gulpfile.js"
+#   - "node_modules"
+#   - "npm-debug.log"
+#   - "package.json"
+#   - "README.md"
+#   - "Gemfile"
+#   - "Gemfile.lock"
+#   - "gulpconfig.yml"
 
 gems:
   - jekyll-sitemap

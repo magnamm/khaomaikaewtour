@@ -47,6 +47,18 @@ javascript:
     - "!assets/js/all.js"
     - "assets/js/bower.js"
     - "assets/js/app.js"
+    - "assets/js/bootstrap-carousel-swipe.js"
+    - "assets/js/bootstrap.min.js"
+    - "assets/js/formoid.min.js"
+    - "assets/js/imagesloaded.pkgd.min.js"
+    - "assets/js/jarallax.js"
+    - "assets/js/jquery.mb.ytplayer.min.js"
+    - "assets/js/jquery.min.js"
+    - "assets/js/jquery.touch-swipe.min.js"
+    - "assets/js/jquery.viewportchecker.js"
+    - "assets/js/masonry.pkgd.min.js"
+    - "assets/js/smooth-scroll.js"
+    - "assets/js/tether.min.js"
 
 
 jekyll:
