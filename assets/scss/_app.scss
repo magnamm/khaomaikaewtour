@@ -1,10 +1,7 @@
 @import "../font/sarabun/thsarabunnew.css";
-$myfont= 'THSarabunNew'
+$myfont: 'THSarabunNew';
 // theme
-/*!
- * Default theme v2 (https://mobirise.com/)
- * Copyright 2016 Mobirise
- */
+
  .container {
   position: relative;
 }
@@ -28,7 +25,7 @@ $myfont= 'THSarabunNew'
 }
 
 .bg-primary {
-  background-color: #c0a375 !important;
+  background-color: lightblue !important;
 }
 
 .bg-success {
@@ -3056,7 +3053,7 @@ html.is-builder .article .lead:not([data-app-remove-it])+div .btn {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
 .engine {
   position: absolute;
   text-indent: -2400px;

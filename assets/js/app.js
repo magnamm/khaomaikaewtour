@@ -292,7 +292,7 @@ function (t) {
     }, t.fn[e].Constructor = d, t.fn[e].$$ = c, t(window).on(o.RESIZE_DATA_API + " " + o.LOAD_DATA_API, d._dataApiResizeHandler), t(document).on(o.KEYDOWN_DATA_API, l.BASE, d._dataApiKeydownHandler).on(o.NAVBAR_COLLAPSE, d._clearMenus).on(o.CLICK_DATA_API, d._clearMenus).on(o.CLICK_DATA_API, l.DATA_TOGGLE, d.prototype.toggle).on(o.CLICK_DATA_API, l.FORM_CHILD, function (t) {
         t.stopPropagation()
     }), t(window).trigger(o.READY)
-}(jQuery)
+}(jQuery);
 
 
 //! theme
