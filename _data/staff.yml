@@ -1,15 +1,15 @@
 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff1.jpg
   name: นายจักรกฤช สายสมร
-  title: ประธานทีมกลยุทธ์ ชุมชนเขาไม้แก้ว
+  title: ประธานทีมกลยุทธ์ ชุมชนเขาไมแกว
   phone: 091-7367636
   email: 
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff2.jpg
   name: นายวิรัตน์	ยังถาวร
   title: ทีมกลยุทธ์
   phone: 087-0947247
@@ -17,7 +17,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff3.jpg
   name: นางยุพิน	อ้นขวัญเมือง
   title: ทีมกลยุทธ์
   phone: 081-7028665
@@ -25,7 +25,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff4.jpg
   name: นายเดชธกิจ	กีทีปกูล
   title: ทีมกลยุทธ์
   phone: 085-0838425
@@ -34,7 +34,7 @@
 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff5.jpg
   name: นายสุวรรณ เมืองกลิ่น
   title: ทีมกลยุทธ์
   phone: 081-9838028
@@ -42,7 +42,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff6.jpg
   name: นายแดง มีกลี่
   title: ทีมกลยุทธ์
   phone: 089-9391763
@@ -50,7 +50,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff7.jpg
   name: นางวิลาวรรณ แก้วรุ่ง
   title: ทีมกลยุทธ์
   phone: 081-4373424 
@@ -58,7 +58,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff8.jpg
   name: นางเพ็ญจิตร อรัญภูวนารถ
   title: ทีมกลยุทธ์
   phone: 085-3552023 
@@ -66,7 +66,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff9.jpg
   name: นางณภัทร สรสิทธิ์
   title: ทีมกลยุทธ์
   phone: 094-1795438 
@@ -74,7 +74,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff10.jpg
   name: นายปรีชา เร่งขวนขวาย
   title: ทีมกลยุทธ์
   phone: 081-2092205 
@@ -82,7 +82,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff11.jpg
   name: นายคณาเดช ผิวน้อย
   title: ทีมกลยุทธ์
   phone: 091-0142557
@@ -90,7 +90,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff12.jpg
   name: นายธวัชชัย คุ้มสมุทร
   title: ทีมกลยุทธ์
   phone: 082-6798089
@@ -98,7 +98,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff13.jpg
   name: นายอภิชาติ	มั่งมี
   title: ทีมกลยุทธ์
   phone: 089-8142213 
@@ -106,7 +106,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff14.jpg
   name: นายวิฑูรย์	ค้ำชู
   title: ทีมกลยุทธ์
   phone: 090-1344191 
@@ -114,7 +114,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff15.jpg
   name: นายกฤษฎา	ลี้ห่างภัย
   title: ทีมกลยุทธ์
   phone: 089-8142213
@@ -122,7 +122,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff16.jpg
   name: นายสุเทพ สุขน้อย
   title: ทีมกลยุทธ์
   phone: 081-6366745
@@ -130,7 +130,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff17.jpg
   name: นายสมชาย กลัดกลาย
   title: ทีมกลยุทธ์
   phone: 084-9188139 
@@ -138,7 +138,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff18.jpg
   name: นายปัญญา สมใจมิตร
   title: ทีมกลยุทธ์
   phone: 080-8369975 
@@ -146,7 +146,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff19.jpg
   name: นายณัฐพล พ่วงอ่อน
   title: ทีมกลยุทธ์
   phone: 090-9217904
@@ -154,7 +154,7 @@
   group: 
 
 - staff:
-  num: 
+  num: ./assets/img/staff/staff20.jpg
   name: นายมเนตร์ วรสุข
   title: ทีมกลยุทธ์
   phone: 081-5902589

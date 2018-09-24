@@ -1,8 +1,8 @@
 ---
 layout: page
 title: สินค้า OTOP นวัตวิถี
-subtitle: ชุมชนเขาไม้แก้ว
-hero: https://via.placeholder.com/1024x768
+subtitle: ชุมชนเขาไมแกว
+hero: './assets/img/product.jpg'
 ---
 
 <!-- <section class="mbr-section mbr-section__container article" id="header3-z" data-rv-view="66" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
@@ -10,7 +10,7 @@ hero: https://via.placeholder.com/1024x768
         <div class="row">
             <div class="col-xs-12">
                 <h3 class="mbr-section-title display-2">สินค้า OTOP นวัตวิถี</h3>
-                <small class="mbr-section-subtitle">ชุมชนเขาไม้แก้ว</small>
+                <small class="mbr-section-subtitle">ชุมชนเขาไมแกว</small>
             </div>
         </div>
     </div>
@@ -25,12 +25,12 @@ hero: https://via.placeholder.com/1024x768
     <section class="mbr-cards mbr-section mbr-section-nopadding" id="features7-1c" data-rv-view="174" style="background-color: rgb(239, 239, 239);">
             <div class="mbr-cards-row row">
                 {% for product in site.data.product %}
-                <div class="mbr-cards-col col-xs-12 col-lg-6" style="padding-top: 80px; padding-bottom: 80px;">
+                <div class="col-xs-12 col-lg-6" style="padding-top: 80px; padding-bottom: 80px;">
                         <div class="container">
                             <div class="card cart-block">
-                                <div class="card-img "><img src="https://via.placeholder.com/1024x768"></div>
+                                <div class="card-img "><img src="{{product.img}}"></div>
                                 <div class="card-block">
-                                    <h4 class="card-title"><a href="mailto:{{staff.email}}">{{product.name}}</a></h4>
+                                    <h4 class="card-title"><a href="mailto:{{product.email}}">{{product.name}}</a></h4>
                                     <p class="card-text" style="min-height: 150px">{{product.discription}}<br>ติดต่อ<a href="tel:{{product.contact}}"> {{product.contact}}</a> {{product.owner}}<br>พิกัด {{product.location}}</p>
             
                                 </div>

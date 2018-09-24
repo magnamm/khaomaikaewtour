@@ -1,18 +1,20 @@
 ---
 layout: page
 title: ติดต่อเรา 
-subtitle: ทีมกลยุทธ์ชุมชนท่องเที่ยว OTOP นวัตวิถี ตำบลเขาไม้แก้ว 
-hero: https://via.placeholder.com/1024x768
+subtitle: ทีมกลยุทธ์ชุมชนท่องเที่ยว OTOP นวัตวิถี ตำบลเขาไมแกว 
+hero: "./assets/img/contact.jpg"
 ---
 
 <section class="mbr-cards mbr-section mbr-section-nopadding" id="features7-1c" data-rv-view="174" style="background-color: rgb(239, 239, 239);">
     <div class="mbr-cards-row row">
 
         {% for staff in site.data.staff %}
-        <div class="mbr-cards-col col-xs-12 col-lg-3" style="padding-top: 80px; padding-bottom: 80px;">
+
+        {% if staff.title == 'ประธานทีมกลยุทธ์ ชุมชนเขาไมแกว' %}
+        <div class=" col-xs-12 col-lg-4 align-self-center col-lg-offset-4" style="padding-top: 80px; padding-bottom: 80px;">
             <div class="container">
                 <div class="card cart-block">
-                    <div class="card-img "><img src="https://via.placeholder.com/1024x768"></div>
+                    <div class="card-img "><img src="{{staff.num}}"></div>
                     <div class="card-block">
                         <h4 class="card-title"><a href="mailto:{{staff.email}}">{{staff.name}}</a></h4>
                         <p class="card-text">{{staff.title}}<br>โทร.<a href="tel:{{staff.phone}}"> {{staff.phone}}</a> <br>อีเมลล์ <a href="mailto:{{staff.email}}"> {{staff.email}}</a></p>
@@ -21,6 +23,21 @@ hero: https://via.placeholder.com/1024x768
                 </div>
             </div>
         </div>
+        </div><div class="mbr-cards-row row">
+        {% else %}
+        <div class=" col-xs-12 col-lg-3" >
+            <div class="container">
+                <div class="card cart-block">
+                    <div class="card-img "><img src="{{staff.num}}"></div>
+                    <div class="card-block" style=" min-height: 220px; ">
+                        <h4 class="card-title"><a href="mailto:{{staff.email}}">{{staff.name}}</a></h4>
+                        <p class="card-text">{{staff.title}}<br>โทร.<a href="tel:{{staff.phone}}"> {{staff.phone}}</a> {% if staff.email != nulled %}<br>อีเมลล์ <a href="mailto:{{staff.email}}"> {{staff.email}}</a>{% endif %}</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
         {% endfor %}
     </div>
 </section>
@@ -90,27 +107,3 @@ hero: https://via.placeholder.com/1024x768
             </div>
         </div>
     </section>
-    
-รายชื่อทีมกลยุทธ์ชุมชนท่องเที่ยว OTOP นวัตวิถี ตำบลเขาไม้แก้ว
-1. 	นายวิรัตน์	ยังถาวร
-2. 	นางยุพิน	อ้นขวัญเมือง
-3. 	นายเดชธกิจ	กีทีปกูล
-4. 	นายสุวรรณ 	เมืองกลิ่น
-5. 	นายจักรกฤช 	สายสมร
-6. 	นายแดง 	มีกลี่
-7. 	นางวิลาวรรณ 	แก้วรุ่ง
-8. 	นางเพ็ญจิตร 	อรัญภูวนารถ
-9. 	นางณภัทร 	สรสิทธิ์
-10. 	นายปรีชา 	เร่งขวนขวาย
-11. 	นายคณาเดช 	ผิวน้อย
-12. 	นายธวัชชัย 	คุ้มสมุทร
-13. 	นายอภิชาติ	มั่งมี
-14. 	นายวิฑูรย์	ค้ำชู
-15. 	นายกฤษฎา	ลี้ห่างภัย
-16. 	นายสุเทพ 	สุขน้อย
-17. 	นายสมชาย 	กลัดกลาย
-18. 	นายปัญญา 	สมใจนึก
-19. 	นายณัฐพล 	พ่วงอ่อน
-20. 	นายมเนตร์	วรสุข
-
-ติดตามข่าวสารได้ที่เพจเฟสบุคชุมชน
